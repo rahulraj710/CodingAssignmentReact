@@ -1,0 +1,254 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Reset default margin and padding */
+body, h1, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Main heading styles */
+h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f0f0f0;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Recipe list container */
+.ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #333; /* Adjust text color for better contrast */
+}
+
+.ul li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.ul li:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+
+textarea {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin-right: 10px;
+  height: 35px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 50px;
+}
+
+/* Hover and focus styles */
+button:hover,
+button:focus {
+  background-color: #0056b3;
+}
+
+/* Disabled state */
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.no-bullet {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.recipe-list-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.recipe-ul {
+  list-style-type: none;
+  padding: 0;
+  width: 50%;
+}
+
+.image-placeholder {
+  width: 50%;
+  margin-left: 20px;
+}
+
+.image-text {
+  padding: 10px;
+  background-color: #f0f0f0;
+  color: #333;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* index.css or App.css (where your global styles are defined) */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.recipe-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.ingredients {
+  margin-bottom: 20px;
+}
+
+.ingredients p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ingredients ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ingredients li {
+  margin-bottom: 8px;
+}
+
+.image-placeholder {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.alt-text {
+  padding: 10px;
+  background-color: #f0f0f0;
+  color: #555;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.steps {
+  margin-bottom: 20px;
+}
+
+.steps p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.steps ol {
+  padding-left: 20px;
+}
+
+.comments {
+  margin-bottom: 20px;
+}
+
+.comments p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.comments ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.comments li {
+  margin-bottom: 8px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+textarea {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin-right: 10px;
+  min-height: 100px; /* Adjust as needed */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover,
+button:focus {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.no-bullet {
+  list-style-type: none;
+  padding: 0;
+}
